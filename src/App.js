@@ -13,10 +13,8 @@ import Quizz from "./Component/Quizz";
 const App =()=> {
 
  return(
-<BrowserRouter>
+<BrowserRouter basename={window.location.pathname || ''}>
   <Background />
-
-  
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/Background" element={<Background/>}/>
