@@ -1,0 +1,61 @@
+
+.ScreenContainer {
+    height: 100vh;
+    background: transparent;
+
+}
+
+.NickContainer {
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30%;
+}
+
+.NickContainer h1 {
+    background: transparent;
+    line-height: 0px;
+}
+
+.NameForm {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.NameForm input {
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    border: 5px solid #283618;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    border-radius: 25px ;
+}
+
+
+.Mulai {
+    margin-top: 60px;
+    width: 80%;
+
+}
+
+
+.NameForm input:focus{
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    box-shadow: 0 0 3px 2px rgba(8, 158, 228, 0.5);
+}
+
+
+
+
+

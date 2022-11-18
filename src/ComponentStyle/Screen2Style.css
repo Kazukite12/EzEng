@@ -1,0 +1,50 @@
+
+.ScreenContainer {
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IntroContainer {
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    border: 4px solid #283618;
+    border-radius: 25px;
+    width: 90%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.IntroContainer p {
+    background: transparent;
+    color:white;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.IntroContainer span {
+    text-transform: capitalize;
+}
+
+.ArrowContainer {
+    background: transparent;
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ArrowContainer img {
+    background: transparent;
+    width: 80%;
+}
+
+.ArrowContainer Link {
+    background: transparent;
+}

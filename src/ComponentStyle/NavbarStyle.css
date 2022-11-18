@@ -1,0 +1,13 @@
+.Navbar {
+    background: transparent;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.Navbar img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+

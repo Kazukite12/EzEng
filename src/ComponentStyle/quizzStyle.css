@@ -1,0 +1,85 @@
+.quizzContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questionCounter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionContainer {
+    margin-top: 5%;
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    border: 4px solid #283618;
+    border-radius: 20px;
+}
+
+.question {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.answer button {
+    background: #283618;
+    border-radius: 20px;
+    width: 100%;
+    height: 45px; 
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 400; 
+    border: 4px solid #283618;
+    color: white;
+}
+
+
+.answer button:active {
+    background: black;
+    color: white;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.next button {
+    background: transparent;
+    border: none;
+}
+
+.next button img {
+    width: 80%;
+}
+
+
+.correct {
+    background:  green !important;
+    color: white;
+    border: none;
+}
+
+.questionCounter {
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+}

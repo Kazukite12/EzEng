@@ -1,0 +1,96 @@
+
+
+.Overlay {
+    position: absolute;
+    z-index: 99;
+    background: white;
+    margin-top: 15%;
+    width: 90%;
+    height: 80%;
+    border-radius: 30px;
+    border: 5px solid #283618;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.OverlayMateri {
+    position: fixed;
+    z-index: 99;
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    margin-top: 15%;
+    width: 90%;
+    height: 80%;
+    border-radius: 30px;
+    border: 5px solid #283618;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.XContainer {
+    background: transparent;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.modalContainer {
+    width: 90%;
+    background: transparent;
+    background-color: #0B1833;
+    margin: auto;
+    border-radius: 25px;
+    height: 40%;
+
+}
+
+.modalContainer h1 {
+    background: transparent;
+    color: black;
+    padding: 10px;
+}
+
+.themeContainer {
+    width: 90%;
+    background: transparent;
+    margin: auto;
+    border-radius: 25px;
+    height: 40%;
+}
+
+.themeContainer h1 {
+    background: transparent;
+    color: black;
+}
+
+.MateriContainer {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background: transparent;
+    text-align: justify;
+    color:white;
+    
+}                       
+
+.MateriContainer p {
+    font-size: 19px;
+}
+
+.contoh {
+    background:  #283618 ;
+    border: 3px solid  #283618;
+    padding: 2px;
+    border-radius: 5px;
+}
