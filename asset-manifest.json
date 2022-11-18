@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.b179b4cc.css",
-    "main.js": "/static/js/main.f44ef366.js",
-    "static/media/Tittle.png": "/static/media/Tittle.9ef7553ccb28a5699828.png",
-    "static/media/play.png": "/static/media/play.b215765fd6ec9253ce6a.png",
-    "static/media/settingButton.png": "/static/media/settingButton.5279550de616827f4856.png",
-    "static/media/ArrowRight.svg": "/static/media/ArrowRight.e07c9db0320c59c3bce6509e9b557131.svg",
-    "static/media/ArrowLeft.svg": "/static/media/ArrowLeft.1c2e7f13f7ed9ebdec03393ab61cdc7b.svg",
-    "static/media/leaveButton.png": "/static/media/leaveButton.0f395b34ebea726549a9.png",
-    "static/media/settingNavbar.svg": "/static/media/settingNavbar.187716ed92684bb60917d19e80206463.svg",
-    "static/media/InfoButton.png": "/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
-    "static/media/menu.svg": "/static/media/menu.7e596872ceff2ffb4dd669aff18c80cb.svg",
-    "static/media/homeIcon.svg": "/static/media/homeIcon.2b08b972bf42793d37159736c57d42d2.svg",
-    "static/media/Neptune.svg": "/static/media/Neptune.59f8b6aff060f6ccf73d5bcbf506cdd2.svg",
-    "static/media/Uranus.svg": "/static/media/Uranus.d16cbaab8149c4ddacf7df1297dfe592.svg",
-    "static/media/XIcon.svg": "/static/media/XIcon.365ec978a40a21d9780cdd233d5accaa.svg",
-    "index.html": "/index.html",
-    "main.b179b4cc.css.map": "/static/css/main.b179b4cc.css.map",
-    "main.f44ef366.js.map": "/static/js/main.f44ef366.js.map"
+    "main.css": "/EzEng/static/css/main.b179b4cc.css",
+    "main.js": "/EzEng/static/js/main.c69980f6.js",
+    "static/media/Tittle.png": "/EzEng/static/media/Tittle.9ef7553ccb28a5699828.png",
+    "static/media/play.png": "/EzEng/static/media/play.b215765fd6ec9253ce6a.png",
+    "static/media/settingButton.png": "/EzEng/static/media/settingButton.5279550de616827f4856.png",
+    "static/media/ArrowRight.svg": "/EzEng/static/media/ArrowRight.e07c9db0320c59c3bce6509e9b557131.svg",
+    "static/media/ArrowLeft.svg": "/EzEng/static/media/ArrowLeft.1c2e7f13f7ed9ebdec03393ab61cdc7b.svg",
+    "static/media/leaveButton.png": "/EzEng/static/media/leaveButton.0f395b34ebea726549a9.png",
+    "static/media/settingNavbar.svg": "/EzEng/static/media/settingNavbar.187716ed92684bb60917d19e80206463.svg",
+    "static/media/InfoButton.png": "/EzEng/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
+    "static/media/menu.svg": "/EzEng/static/media/menu.7e596872ceff2ffb4dd669aff18c80cb.svg",
+    "static/media/homeIcon.svg": "/EzEng/static/media/homeIcon.2b08b972bf42793d37159736c57d42d2.svg",
+    "static/media/Neptune.svg": "/EzEng/static/media/Neptune.59f8b6aff060f6ccf73d5bcbf506cdd2.svg",
+    "static/media/Uranus.svg": "/EzEng/static/media/Uranus.d16cbaab8149c4ddacf7df1297dfe592.svg",
+    "static/media/XIcon.svg": "/EzEng/static/media/XIcon.365ec978a40a21d9780cdd233d5accaa.svg",
+    "index.html": "/EzEng/index.html",
+    "main.b179b4cc.css.map": "/EzEng/static/css/main.b179b4cc.css.map",
+    "main.c69980f6.js.map": "/EzEng/static/js/main.c69980f6.js.map"
   },
   "entrypoints": [
     "static/css/main.b179b4cc.css",
-    "static/js/main.f44ef366.js"
+    "static/js/main.c69980f6.js"
   ]
 }
