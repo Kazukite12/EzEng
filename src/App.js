@@ -16,8 +16,8 @@ const App =()=> {
 <HashRouter>
   <Background />
   <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/Screen1" element={<Screen1/>}/>
+    <Route path="/EzEng" element={<Home/>}/>
+    <Route path="/EzEng/Screen1" element={<Screen1/>}/>
     <Route path="/Screen2" element={<Screen2/>}/>
     <Route path="/Screen3" element={<Screen3/>}/>
     <Route path="/Screen4" element={<Screen4/>}/>

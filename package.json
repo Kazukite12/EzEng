@@ -1,7 +1,7 @@
 {
   "name": "dorothy",
   "version": "0.1.0",
-  "homepage": "/EzEng/#",
+  "homepage": "https://kazukite12.github.io/EzEng",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
