@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { BrowserRouter,Routes,Route, Link } from 'react-router-dom'
+import { HashRouter,Routes,Route, Link } from 'react-router-dom'
 import Home from './Component/Home';
 import Screen2 from "./Component/Screen2";
 import Screen1 from "./Component/Screen1";
@@ -13,11 +13,10 @@ import Quizz from "./Component/Quizz";
 const App =()=> {
 
  return(
-<BrowserRouter basename={window.location.pathname || ''}>
+<HashRouter>
   <Background />
   <Routes>
     <Route path="/" element={<Home/>}/>
-    <Route path="/Background" element={<Background/>}/>
     <Route path="/Screen1" element={<Screen1/>}/>
     <Route path="/Screen2" element={<Screen2/>}/>
     <Route path="/Screen3" element={<Screen3/>}/>
@@ -26,7 +25,7 @@ const App =()=> {
     <Route path="/Quizz" element={<Quizz/>}/>
     <Route path="*" element={<Error/>}/>
   </Routes>
-</BrowserRouter>
+</HashRouter>
  ) 
 }
 
