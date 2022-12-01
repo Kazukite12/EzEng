@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EzEng/static/css/main.d04f359d.css",
-    "main.js": "/EzEng/static/js/main.7bf05902.js",
+    "main.css": "/EzEng/static/css/main.8f8ed14d.css",
+    "main.js": "/EzEng/static/js/main.5b897426.js",
     "static/media/Tittle.png": "/EzEng/static/media/Tittle.9ef7553ccb28a5699828.png",
     "static/media/play.png": "/EzEng/static/media/play.b215765fd6ec9253ce6a.png",
     "static/media/settingButton.png": "/EzEng/static/media/settingButton.5279550de616827f4856.png",
@@ -12,13 +12,13 @@
     "static/media/InfoButton.png": "/EzEng/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
     "static/media/menu.svg": "/EzEng/static/media/menu.7e596872ceff2ffb4dd669aff18c80cb.svg",
     "static/media/homeIcon.svg": "/EzEng/static/media/homeIcon.2b08b972bf42793d37159736c57d42d2.svg",
-    "static/media/XIcon.svg": "/EzEng/static/media/XIcon.bc75e42735044e9d906a70d0648ca5ae.svg",
+    "static/media/XIcon.svg": "/EzEng/static/media/XIcon.97aa67084ac6c12b8b0c668cc2853695.svg",
     "index.html": "/EzEng/index.html",
-    "main.d04f359d.css.map": "/EzEng/static/css/main.d04f359d.css.map",
-    "main.7bf05902.js.map": "/EzEng/static/js/main.7bf05902.js.map"
+    "main.8f8ed14d.css.map": "/EzEng/static/css/main.8f8ed14d.css.map",
+    "main.5b897426.js.map": "/EzEng/static/js/main.5b897426.js.map"
   },
   "entrypoints": [
-    "static/css/main.d04f359d.css",
-    "static/js/main.7bf05902.js"
+    "static/css/main.8f8ed14d.css",
+    "static/js/main.5b897426.js"
   ]
 }
