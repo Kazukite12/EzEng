@@ -2,6 +2,7 @@
 
 .homePage {
     background: transparent;
+    height: 100vh;
 }
 
 .tittle {
@@ -10,16 +11,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .tittle img {
-    width: 80%;
+    width: 40vh;
 }
 
 .buttonContainer {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .MainButtonContainer {
@@ -31,7 +32,7 @@
 }
 
 .MainButtonContainer img {
-    width: 50%;
+    width: 30vh;
 
 }
 
@@ -43,7 +44,9 @@
 }
 
 .SecondButtonContainer img {
-    width: 80%;
+    width: 15vh;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 

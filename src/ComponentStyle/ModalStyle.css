@@ -3,18 +3,69 @@
 .Overlay {
     position: absolute;
     z-index: 99;
-    background: white;
+    background:#283618;
     margin-top: 15%;
     width: 90%;
-    height: 80%;
+    height: fit-content;
+    padding-bottom: 25px;
     border-radius: 30px;
-    border: 5px solid #283618;
+    border: 5px solid rgba(175,102,38,1);
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
 }
+
+#Music {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-right: 15px;
+    width: 100%;
+    height: 10px;
+    background: rgba(175,102,38,1);
+    border-radius: 5px;
+    background-size: 70% 100%;
+}
+
+#Music::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 35px;
+    border: 2px solid rgba(175,102,38,1);
+    width: 35px;
+    border-radius: 50%;
+    background: #283618;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition:.3s ease-in-out;
+}
+
+#Sfx {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-right: 15px;
+    width: 100%;
+    height: 10px;
+    background: rgba(175,102,38,1);
+    border-radius: 5px;
+    background-size: 70% 100%;
+}
+
+#Sfx::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 35px;
+    border: 2px solid rgba(175,102,38,1);
+    width: 35px;
+    border-radius: 50%;
+    background: #283618;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition:.3s ease-in-out;
+}
+
+
 
 .OverlayMateri {
     position: fixed;
@@ -45,17 +96,44 @@
 .modalContainer {
     width: 90%;
     background: transparent;
-    background-color: #0B1833;
+    background-color: transparent;
     margin: auto;
     border-radius: 25px;
     height: 40%;
 
 }
 
+.HomeModal {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeModal button {
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 24px;
+    width: 80%;
+    margin-top: 20px;
+    font-weight: 600; 
+    border: 4px solid #283618;
+    color: white;
+}
+
+.BackLink {
+    width: 100%;
+}
+
 .modalContainer h1 {
     background: transparent;
-    color: black;
     padding: 10px;
+    color: white;
+    font-size: 24px;
 }
 
 .themeContainer {
@@ -66,10 +144,12 @@
     height: 40%;
 }
 
+
 .themeContainer h1 {
     background: transparent;
     color: black;
 }
+
 
 .MateriContainer {
     display: flex;
@@ -79,13 +159,18 @@
     flex-direction: column;
     margin: auto;
     background: transparent;
-    text-align: justify;
     color:white;
     
 }                       
 
+.MateriContainer h1 {
+    text-align: center;
+}
+
+
 .MateriContainer p {
     font-size: 19px;
+    text-align: justify;
 }
 
 .contoh {
@@ -93,4 +178,21 @@
     border: 3px solid  #283618;
     padding: 2px;
     border-radius: 5px;
+}
+
+.ButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ButtonContainer button {
+    margin-top: 20px;
+    width: 80%;
+    background: linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    border: 4px solid #283618 ;
+    border-radius: 25px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
