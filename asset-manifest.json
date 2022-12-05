@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/EzEng/static/css/main.1655f5a9.css",
-    "main.js": "/EzEng/static/js/main.5980fd81.js",
+    "main.css": "/EzEng/static/css/main.700b54a2.css",
+    "main.js": "/EzEng/static/js/main.69c2a4ea.js",
     "static/media/song.mp3": "/EzEng/static/media/song.b56a1fd2543b9b9b42f8.mp3",
     "static/media/Tittle.png": "/EzEng/static/media/Tittle.9ef7553ccb28a5699828.png",
     "static/media/play.png": "/EzEng/static/media/play.b215765fd6ec9253ce6a.png",
     "static/media/settingButton.png": "/EzEng/static/media/settingButton.5279550de616827f4856.png",
     "static/media/ArrowRight.svg": "/EzEng/static/media/ArrowRight.e07c9db0320c59c3bce6509e9b557131.svg",
     "static/media/ArrowLeft.svg": "/EzEng/static/media/ArrowLeft.1c2e7f13f7ed9ebdec03393ab61cdc7b.svg",
+    "static/media/icon.png": "/EzEng/static/media/icon.2cc8af28a113654d10b5.png",
     "static/media/leaveButton.png": "/EzEng/static/media/leaveButton.0f395b34ebea726549a9.png",
     "static/media/settingNavbar.svg": "/EzEng/static/media/settingNavbar.187716ed92684bb60917d19e80206463.svg",
     "static/media/InfoButton.png": "/EzEng/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
@@ -20,11 +21,11 @@
     "static/media/sfx.mp3": "/EzEng/static/media/sfx.e0d5f54546859eb72328.mp3",
     "static/media/XIcon.svg": "/EzEng/static/media/XIcon.97aa67084ac6c12b8b0c668cc2853695.svg",
     "index.html": "/EzEng/index.html",
-    "main.1655f5a9.css.map": "/EzEng/static/css/main.1655f5a9.css.map",
-    "main.5980fd81.js.map": "/EzEng/static/js/main.5980fd81.js.map"
+    "main.700b54a2.css.map": "/EzEng/static/css/main.700b54a2.css.map",
+    "main.69c2a4ea.js.map": "/EzEng/static/js/main.69c2a4ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.1655f5a9.css",
-    "static/js/main.5980fd81.js"
+    "static/css/main.700b54a2.css",
+    "static/js/main.69c2a4ea.js"
   ]
 }
