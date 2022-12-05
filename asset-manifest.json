@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EzEng/static/css/main.6605cd3f.css",
-    "main.js": "/EzEng/static/js/main.7986cd16.js",
+    "main.css": "/EzEng/static/css/main.1655f5a9.css",
+    "main.js": "/EzEng/static/js/main.5980fd81.js",
     "static/media/song.mp3": "/EzEng/static/media/song.b56a1fd2543b9b9b42f8.mp3",
     "static/media/Tittle.png": "/EzEng/static/media/Tittle.9ef7553ccb28a5699828.png",
     "static/media/play.png": "/EzEng/static/media/play.b215765fd6ec9253ce6a.png",
@@ -13,14 +13,18 @@
     "static/media/InfoButton.png": "/EzEng/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
     "static/media/menu.svg": "/EzEng/static/media/menu.7e596872ceff2ffb4dd669aff18c80cb.svg",
     "static/media/homeIcon.svg": "/EzEng/static/media/homeIcon.2b08b972bf42793d37159736c57d42d2.svg",
+    "static/media/music1.svg": "/EzEng/static/media/music1.be0fba92fb6f7ccf106bc840a61afe21.svg",
+    "static/media/music.svg": "/EzEng/static/media/music.b4c42cce7cba28c6a493584887c7c5a6.svg",
+    "static/media/sfx.svg": "/EzEng/static/media/sfx.05fe70924b8151e43dad9c3b743c2be8.svg",
+    "static/media/sfx1.svg": "/EzEng/static/media/sfx1.a0775fcc40fb53efcb5cad4d1158a370.svg",
     "static/media/sfx.mp3": "/EzEng/static/media/sfx.e0d5f54546859eb72328.mp3",
     "static/media/XIcon.svg": "/EzEng/static/media/XIcon.97aa67084ac6c12b8b0c668cc2853695.svg",
     "index.html": "/EzEng/index.html",
-    "main.6605cd3f.css.map": "/EzEng/static/css/main.6605cd3f.css.map",
-    "main.7986cd16.js.map": "/EzEng/static/js/main.7986cd16.js.map"
+    "main.1655f5a9.css.map": "/EzEng/static/css/main.1655f5a9.css.map",
+    "main.5980fd81.js.map": "/EzEng/static/js/main.5980fd81.js.map"
   },
   "entrypoints": [
-    "static/css/main.6605cd3f.css",
-    "static/js/main.7986cd16.js"
+    "static/css/main.1655f5a9.css",
+    "static/js/main.5980fd81.js"
   ]
 }
