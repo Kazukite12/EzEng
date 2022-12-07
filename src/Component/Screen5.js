@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar"
-import ArrowLeft from "../Asset/ArrowLeft.svg"
-import ArrowRight from "../Asset/ArrowRight.svg"
+import ArrowLeft from "../Asset/ArrowLeft.svg";
+import ArrowRight from "../Asset/ArrowRight.svg";
 import { Link } from "react-router-dom";
 import "../ComponentStyle/Screen3Style.css";
 
@@ -13,7 +12,6 @@ const Screen5 =(play)=> {
     return(
     
             <div className="ScreenContainer">
-                <Navbar />
                 <div className="IntroContainer">
                     <p>Oke {Nick}, selanjutnya kita akan membahas mengenai Adverb, apa itu adverb ?</p>
                 </div>

@@ -1,37 +1,32 @@
-import React, { useEffect, useRef} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import "../ComponentStyle/HomeStyle.css";
-import play from "../Asset/play.png";
-import setting from "../Asset/settingButton.png";
-import leave from "../Asset/leaveButton.png";
+import "../ComponentStyle/Screen3Style.css"
+import plays from "../Asset/play.png";
 import info from "../Asset/InfoButton.png";
-import Lottie from "lottie-react";
 import tittle from "../Asset/Tittle.png";
+import ask from "../Asset/icon.png"
 
 
-const Home =()=>{
+const Home =({play, playMusic, setOpenNav})=>{
 
     return  (
         <div className="homePage">
             <div className="tittle">
-                <img src={tittle}/>
+                <img alt="tittle" src={tittle}/>
             </div>
             <div className="buttonContainer">
                 <div className="MainButtonContainer">
-                    <Link className="Link" to="/Screen1">
-                        <img src={play} />
+                    <Link onClick={()=> setOpenNav(true) } className="Link" to="/Screen1">
+                        <img alt="play" onClick={playMusic} src={plays} />
                     </Link>
                 </div>
                 <div className="SecondButtonContainer">
-                    <Link className="Link" to="/about">
-                        <img src={info} />
+                    <Link onClick={()=> setOpenNav(true)} className="Link" to="/info">
+                        <img alt="info" onClick={playMusic} src={info} />
                     </Link>
-                    <Link className="Link" to="/about">
-                        <img src={leave} />
-                    </Link>
-                    <Link className="Link" to="/about">
-                        <img src={setting}/>
-                    </Link>
+                    
+                    <img alt="ask" src={ask} />
+                    
                 </div>
             </div>
             

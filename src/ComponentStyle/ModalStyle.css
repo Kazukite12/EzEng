@@ -1,7 +1,6 @@
 
-
 .Overlay {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     background:#283618;
     margin-top: 15%;

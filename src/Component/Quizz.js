@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "./Navbar";
 import "../ComponentStyle/quizzStyle.css";
 import ArrowRight from "../Asset/ArrowRight.svg"
 import questions from "./QuizzData";
@@ -14,9 +13,10 @@ const Quizz =()=> {
     const [showResult, setShowResult ] = useState(false);
     const [clicked, setClicked] = useState(false);
 
+
     const handleAnswerOption=(isCorrect)=> {
         if(isCorrect){
-            setScore(score+2)
+            setScore(score+10)
             setCorrectAns(correctAns+1)
         }
         setClicked(true)
@@ -39,18 +39,22 @@ const Quizz =()=> {
         setShowResult(false)
     };
 
+
+
     return (
         <>
         <div className="quizzContainer">
-            <Navbar/>
-            {showResult?(<QuizzResult handlePlayAgain={handlePlayAgain} score={score} CorrectAns={correctAns}/>):(<div className="questionContainer">
+            {showResult?(<QuizzResult handlePlayAgain={handlePlayAgain} score={score} CorrectAns={correctAns}/>):(
+            <div className="questionContainer">
                 <div className="questionCounter">
-                    <h1>{currentQuestion+1}/{questions.length}</h1>
-                    <h1>Score:{score}</h1>
+                    <p>{currentQuestion+1}/{questions.length}</p>
+                    <p>Score : {score}</p>
                 </div>
+
                 <div className="question">
                     <p>{questions[currentQuestion].questionText}</p>
                 </div>
+                
                 <div className="answer">
                 {questions[currentQuestion].answerOptions.map((ans,i) => {
                     return (

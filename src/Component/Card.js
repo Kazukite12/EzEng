@@ -1,11 +1,9 @@
 import React, {useState} from "react";
-import Navbar from "./Navbar";
 import "../ComponentStyle/CardStyle.css";
 import ArrowLeft from "../Asset/ArrowLeft.svg";
 import { Link } from "react-router-dom";
 import ArrowRight from "../Asset/ArrowRight.svg";
-import Neptune from "../Asset/Neptune.svg";
-import Uranus from "../Asset/Uranus.svg";
+
 import FinitiveModal from "./FinitiveModal";
 import AuxModal from "./AuxModal";
 import LinkModal from "./LinkModal";
@@ -16,7 +14,7 @@ import RegModal from "./RegModal";
 
 
 
-const Card =()=> {
+const Card =({play})=> {
     const [openFinitiveModal, setOpenFinitiveModal] = useState(false)
     const [openAuxModal, setOpenAuxModal] = useState(false)
     const [openLinkingModal, setOpenLinkingModal] = useState(false)
@@ -25,7 +23,6 @@ const Card =()=> {
 
     return(
         <div className="CardContainer">
-            <Navbar /> 
             <div className="cardTittle">
                 <h2>Jenis-jenis kata kerja yang akan kita bahas dalam materi verbs kali ini</h2>
             </div>
@@ -47,11 +44,11 @@ const Card =()=> {
                 </button>
             </div>
             <div className="ArrowContainer">
-                <Link className="Link" to="/Screen1">
-                    <img src={ArrowLeft} alt='panah' />
+                <Link className="Link" to="/Screen4">
+                    <img onClick={play} src={ArrowLeft} alt='panah' />
                 </Link>
-                <Link className="Link" to="/Quizz">
-                    <img src={ArrowRight} alt='panah' />
+                <Link className="Link" to="/Video">
+                    <img onClick={play} src={ArrowRight} alt='panah' />
                 </Link>
             </div>     
             <FinitiveModal open={openFinitiveModal} onClose={()=> setOpenFinitiveModal(false)} />

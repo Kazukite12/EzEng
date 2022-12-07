@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "../ComponentStyle/BgStyle.css";
 
+
 const Background =()=> {
+    
+
     return(
         <div className="bgContainer">
             <div id="stars"></div>

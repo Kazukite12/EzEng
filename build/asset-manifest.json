@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/EzEng/static/css/main.d04f359d.css",
-    "main.js": "/EzEng/static/js/main.7bf05902.js",
+    "main.css": "/EzEng/static/css/main.c56ec874.css",
+    "main.js": "/EzEng/static/js/main.c8edb957.js",
+    "static/media/song.mp3": "/EzEng/static/media/song.b56a1fd2543b9b9b42f8.mp3",
+    "static/media/profil.jpg": "/EzEng/static/media/profil.7c22e24f8d596218c6fa.jpg",
     "static/media/Tittle.png": "/EzEng/static/media/Tittle.9ef7553ccb28a5699828.png",
     "static/media/play.png": "/EzEng/static/media/play.b215765fd6ec9253ce6a.png",
-    "static/media/settingButton.png": "/EzEng/static/media/settingButton.5279550de616827f4856.png",
     "static/media/ArrowRight.svg": "/EzEng/static/media/ArrowRight.e07c9db0320c59c3bce6509e9b557131.svg",
     "static/media/ArrowLeft.svg": "/EzEng/static/media/ArrowLeft.1c2e7f13f7ed9ebdec03393ab61cdc7b.svg",
-    "static/media/leaveButton.png": "/EzEng/static/media/leaveButton.0f395b34ebea726549a9.png",
+    "static/media/icon.png": "/EzEng/static/media/icon.2cc8af28a113654d10b5.png",
     "static/media/settingNavbar.svg": "/EzEng/static/media/settingNavbar.187716ed92684bb60917d19e80206463.svg",
     "static/media/InfoButton.png": "/EzEng/static/media/InfoButton.cd36f8adb11d62cb4e99.png",
     "static/media/menu.svg": "/EzEng/static/media/menu.7e596872ceff2ffb4dd669aff18c80cb.svg",
     "static/media/homeIcon.svg": "/EzEng/static/media/homeIcon.2b08b972bf42793d37159736c57d42d2.svg",
-    "static/media/XIcon.svg": "/EzEng/static/media/XIcon.bc75e42735044e9d906a70d0648ca5ae.svg",
+    "static/media/music1.svg": "/EzEng/static/media/music1.be0fba92fb6f7ccf106bc840a61afe21.svg",
+    "static/media/music.svg": "/EzEng/static/media/music.b4c42cce7cba28c6a493584887c7c5a6.svg",
+    "static/media/sfx.svg": "/EzEng/static/media/sfx.05fe70924b8151e43dad9c3b743c2be8.svg",
+    "static/media/sfx1.svg": "/EzEng/static/media/sfx1.a0775fcc40fb53efcb5cad4d1158a370.svg",
+    "static/media/sfx.mp3": "/EzEng/static/media/sfx.e0d5f54546859eb72328.mp3",
+    "static/media/XIcon.svg": "/EzEng/static/media/XIcon.97aa67084ac6c12b8b0c668cc2853695.svg",
     "index.html": "/EzEng/index.html",
-    "main.d04f359d.css.map": "/EzEng/static/css/main.d04f359d.css.map",
-    "main.7bf05902.js.map": "/EzEng/static/js/main.7bf05902.js.map"
+    "main.c56ec874.css.map": "/EzEng/static/css/main.c56ec874.css.map",
+    "main.c8edb957.js.map": "/EzEng/static/js/main.c8edb957.js.map"
   },
   "entrypoints": [
-    "static/css/main.d04f359d.css",
-    "static/js/main.7bf05902.js"
+    "static/css/main.c56ec874.css",
+    "static/js/main.c8edb957.js"
   ]
 }

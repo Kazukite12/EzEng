@@ -14,12 +14,17 @@ code {
 .Link {
   background: transparent;
   display: flex;
-  max-width: fit-content;
   justify-content: center;
   align-items: center;
   padding: 0;
   margin: 0;
+  text-decoration: none;
 
+}
+
+.Link img:active {
+  scale: 1.1;
+  
 }
 
 span {

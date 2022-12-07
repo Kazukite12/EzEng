@@ -6,6 +6,10 @@
     min-height: 100%;
 }
 
+.button2 {
+    z-index: 999;
+}
+
 #stars {
     width: 3px;
     background: transparent;

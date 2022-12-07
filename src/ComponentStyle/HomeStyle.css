@@ -50,6 +50,37 @@
 }
 
 
+.ScreenContainer {
+    text-align: start;
+    color: white;
+    font-weight: 600;
+}
 
+.Profil {
+    background:linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 5px solid  #283618;
+    width: 85%;
+}
 
+.Profil img {
+    width: 50%;
+}
+
+.Credit {
+    background:linear-gradient(180deg, rgba(175,102,38,1) 0%, rgba(133,76,33,1) 100%);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 5px solid  #283618;
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+}
+
+.Credit a {
+    padding-top: 10px;
+}
 
