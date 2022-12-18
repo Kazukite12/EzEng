@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EzEng/static/css/main.c15be110.css",
+    "main.css": "/EzEng/static/css/main.6cfbdce8.css",
     "main.js": "/EzEng/static/js/main.e2ebbb3b.js",
     "static/media/song.mp3": "/EzEng/static/media/song.b56a1fd2543b9b9b42f8.mp3",
     "static/media/akmal.jpg": "/EzEng/static/media/akmal.7f1a57c6fdecb1000c4e.jpg",
@@ -26,11 +26,11 @@
     "static/media/sfx1.svg": "/EzEng/static/media/sfx1.a0775fcc40fb53efcb5cad4d1158a370.svg",
     "static/media/sfx.mp3": "/EzEng/static/media/sfx.e0d5f54546859eb72328.mp3",
     "index.html": "/EzEng/index.html",
-    "main.c15be110.css.map": "/EzEng/static/css/main.c15be110.css.map",
+    "main.6cfbdce8.css.map": "/EzEng/static/css/main.6cfbdce8.css.map",
     "main.e2ebbb3b.js.map": "/EzEng/static/js/main.e2ebbb3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c15be110.css",
+    "static/css/main.6cfbdce8.css",
     "static/js/main.e2ebbb3b.js"
   ]
 }
